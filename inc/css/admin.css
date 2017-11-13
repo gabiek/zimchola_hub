@@ -1,0 +1,41 @@
+
+
+
+    .blocks,
+	.details {
+        display: grid;
+        height:100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+		grid-gap:10px;
+    }
+	
+	
+	#heading {
+		grid-column: 1 / -1;
+		grid-row: 1 / 2;
+		
+	}
+	
+/******************************************************
+				Adding blocks
+******************************************************/
+
+.blocks h3 {
+	display:inline-block;
+	border: 1px solid #0B0C10;
+	padding: .5em;
+	border-radius: 2px;
+	box-shadow:inset 1px 1px 2px #0b0c10;
+	margin-top: 1em;
+}
+
+.blocks div {
+	background: #1f2833;
+	border:2px solid #1f2833;
+	border-radius:5px;
+	box-shadow: -1px -1px 5px rgba(0,0,0,.70);
+}
+
+
+

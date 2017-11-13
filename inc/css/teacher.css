@@ -1,0 +1,67 @@
+
+
+
+/******************************************
+			Tables
+*******************************************/
+
+			
+.table {
+	width:95%;
+	margin:.5em auto;
+	border:1px solid #1f2833;
+	border-radius:5px;
+	box-shadow: -1px -1px 2px #1f2833;
+}
+
+tr > td {
+	border: 1px solid #c5c5c5;
+	background: #f6f6f6;
+	font-weight: normal;
+	color: #454545;
+}
+
+th {
+
+	padding: .7em .3em;
+	color: #c5c6c7;
+	background:#1f2833;	
+	border-bottom: 1px solid #f6f6f6;
+	/* to be moved */
+	border-right: 1px solid #f6f6f6;
+}
+			
+table .headings {
+	background: #0b0c10;
+	color: #45a29e;
+	font-weight: bold;
+}
+
+
+
+.marks th:nth-child(3) {
+	width:3rem;
+}
+
+.marks th:nth-child(1),
+.marks th:nth-child(2) {
+	width:7rem;
+}
+			
+			/*Time table*/
+			
+.timetable {
+	padding-bottom: 1em;
+}
+
+
+#empty-cell {
+	border: hidden;
+	
+}
+
+
+a span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}

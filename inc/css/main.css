@@ -1,0 +1,571 @@
+
+/******************************************
+			Base Element Styles
+*******************************************/
+
+* {
+	box-sizing: border-box;
+	text-align:center;
+}
+
+body {
+	background: #c5c6c7;
+	min-width: 0;
+	color: #66fcf1;
+	font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-size: 100%;
+	line-height: 1.4em;
+	margin: 0 auto;
+	width: calc(100% - 1em);
+}
+
+p {
+	font-size: .95em;
+}
+
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/******************************************
+			Login page
+*******************************************/
+
+/* Main form container */
+
+.wrap {
+	height: calc(100vh - 50px)
+}
+
+.wrapper form {
+	margin-top: 20px;
+	margin-left: 0;
+	padding: 26px 24px 46px;
+	background: #1f2833;
+	box-shadow: -1px -1px 5px rgba(0,0,0,.70);
+	overflow: hidden;
+	border-radius:5px;
+}
+
+#log_form{
+	width: 320px;
+	padding: 8% 0 0;
+	margin: auto;
+	text-align: center;
+}
+
+/* Form nputs */
+
+#log_form label {
+	display:inline-block;
+	font-weight:bold;
+	padding-bottom: .5em;
+	
+}
+
+#log_in,
+#log_out,
+input[type=submit],
+.btn  {
+	background:#1f2833;
+	color:#c5c6c7;
+	line-height: 1em;
+	border:1px solid #1f2833;
+	margin-top:1.5em;
+	padding: 0 1em .2em;
+	border-radius:5px;
+	vertical-align: baseline;
+	box-shadow: 1px 1px 2px #1f2833,-1px -1px 2px #66fcf1;
+	/* text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799; */
+}
+
+#log_in,
+#log_out,
+input[type=submit] {
+	width:50%;
+	height: 2.5em;
+}
+
+#log_in:hover,
+#log_out:hover,
+input[type=submit]:hover,
+.btn:hover  {
+	box-shadow: 1px 1px 2px #1f2833;
+	transition-duration: 0.4s;
+	background: #008ec2;
+	border-color: #006799;
+	color: #fff;
+}
+
+#log_in:active,
+#log_out:active,
+input[type=submit]:active,
+.btn:active {
+	box-shadow:inset 1px 1px 2px #1f2833;
+}
+
+a#log_out.btn ,
+a#log_in.btn{
+	padding-top: .5em;
+	line-height: 1em;
+	margin-left: 1em;
+}
+
+#log_form input[type=text],
+#log_form input[type=password] {
+	width: 250px;
+	height: 35px;
+	background: #c5c6c7;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	text-indent: 32px;
+	box-shadow: inset 3px 3px 4px rgba(0,0,0,.5);
+	text-align:left;
+	
+}
+
+#log_form input[type=text]:focus,
+#log_form input[type=password]:focus,
+input[type=text]:focus,
+textarea:focus,
+#log_form input[type=text]:hover,
+#log_form input[type=password]:hover,
+input[type=text]:hover,
+textarea:hover {
+	transition: 50ms background-color ease-in-out;
+	background-color: #fff;
+}
+
+
+#user_icon,
+#key_icon,
+.icons {
+	position:relative;
+	z-index:2;
+	margin-left:20px;
+	margin-top: -25px;
+	cursor:pointer;
+	color:black;
+	float:left;
+}
+
+input#submit,
+.btn {
+	padding: .7em;
+	margin-left: 3em;
+	width: inherit;
+}
+
+input#submit {
+	
+	height:1.2rem;
+}
+
+input[type=text],
+textarea,
+input,
+select {
+	width: 10rem; /* 250px */
+	height: 35px;
+	background: #e5e6e7;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	/* text-indent: 32px; */
+	box-shadow: inset 3px 3px 2px rgba(0,0,0,.3);
+}
+
+#timepicker {
+	width:250px;
+}
+
+
+/******************************************
+			End of Login page
+*******************************************/
+
+
+/******************************************
+			Common sections
+*******************************************/
+/******************************************
+			Header
+*******************************************/
+
+header {
+	background:#1f2833;
+	padding: 0 2em;
+	margin: 0 -1em;
+
+}
+
+			
+#header_content h1.title a {
+	float:left;
+	padding: 1rem;
+	text-shadow: -1px -1px 2px #1f2833,1px 1px 2px #66fcf1;
+}
+
+#log_out {
+	float:left;
+}
+
+
+
+#acc_settings img,
+#acc_settings {
+	display: inline-block;
+	margin-top: .2em;
+	box-shadow: 1px 1px 5px #c56c7;
+	width:40px;
+	height:40px;
+	float:right;
+	
+}
+
+
+/******************************************
+			Nav
+*******************************************/
+			
+.main-nav {
+	padding: .5em 1em;
+	background:#1f2833;
+	box-shadow: -1px -1px 2px #1f2833,1px 1px 2px #66fcf1;
+	width: 
+	}
+
+
+#menu li {
+	background:#1f2833;
+	height: ;
+	line-height: 100%;
+	border:1px solid #1f2833;
+	border-radius:5px;
+	box-shadow: -1px -1px 2px #1f2833,1px 1px 2px #66fcf1;
+	margin-bottom: .3rem;
+	text-align:left;
+	font-size: .9em;
+}
+
+.child {
+	margin-left: 2em;
+	font-size: .9rem;
+}
+
+#menu .selected {
+	background: #008ec2;
+	border: 1px solid #008ec2;
+}
+
+div a {
+	display:inline-block;
+	padding: .5rem 0 .5rem .2rem;
+	width:100%;
+	text-align:left;
+	color:#c5c6c7;
+}
+
+#menu li:active{
+	box-shadow:inset 1px 1px 2px #1f2833;
+}
+
+#menu li:hover {
+	background: #008ec2;
+	height: 3em;
+	/* width:110%; */
+	transition: 50ms background ease-in-out;
+	box-shadow: 1px 1px 2px #1f2833;
+	transition-duration: 0.4s;
+	color: #fff;
+}
+
+/******************************************
+			Sidebar
+*******************************************/
+
+
+aside {
+	margin-top: 2em;
+}			
+			
+h2.sidebar_title {
+	background:#1f2833;
+	padding:.5em;
+	font-size: 1em;}
+
+.sidebar {
+	background:#c5c6c7;
+	border:1px solid #1f2833;
+	border-radius:5px;
+	box-shadow: -1px -1px 2px #1f2833;
+	
+	overflow: auto;
+	margin-bottom: 0;
+}	
+
+.sidebar:nth-child(2) {
+	margin-top: .5em;
+}		
+
+
+			/*Noticeboard*/
+.sb_common_1 {
+	text-align:left;
+	font-size: .8em;
+	padding-left: 1em;
+}
+
+#ue_date,
+#nb_title {
+	background: #0b0c10;
+	font-size: .8em;
+	color: #c5c6c7;
+	margin-bottom:0;
+}
+
+
+#nb_content,
+#ue_description {
+	font-size: .8em;
+	color: #0b0c10;
+	padding: .3em;
+	margin-top: .2em;
+}
+
+#nb_author {
+	margin-top: 0;
+}
+	
+
+	
+			/*Upcoming Events*/
+			
+#ue_time {
+	color: #1f2833;
+	margin-top: .2em;	
+}		
+				
+
+
+/******************************************
+			Footer
+*******************************************/
+
+footer {
+	background:rgba(31, 40, 51, .7);
+	color: #c5c6c7;
+	margin: 0 -1em;
+}
+
+/******************************************
+			ALL PAGES
+*******************************************/
+/******************************************
+			MAIN CONTENT
+*******************************************/
+/******************************************
+			Modal
+*******************************************/
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);	
+}
+
+.modal-content {
+    background-color: #1f2833;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+	transition: width .3s, height .3s;
+}
+
+
+.close {
+    color: #c5c6c7;
+    float: right;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #0b0c10;
+    text-decoration: none;
+    cursor: pointer;
+	transition: color .3s;
+}
+
+.modal-content form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.modal-content form label {
+	display:block;
+	padding-bottom: .5em;
+	padding-top: 1em;
+}
+
+.modal-content form .btn {
+	margin-left:0;
+}
+
+/******************************************
+			Back to main page link
+*******************************************/
+
+#back {
+	color: #1f2833;
+	font-size: .8em;
+    top: 1em;
+    right: 0;
+	margin-top: -1em;
+	margin-bottom: 0;
+}
+
+#back_btn {
+	width: .8em;
+	height: .8em;
+}
+
+
+/******************************************
+			Titles
+*******************************************/
+
+
+.section-title,
+.inner_title {
+	background:#1f2833;
+	padding:1em;
+	border:1px solid #1f2833;
+	border-radius:5px;
+	box-shadow: -1px -1px 2px #1f2833;
+	font-size: 1.2em;
+}
+
+.inner_title {
+	display:block;
+	box-shadow: -1px -1px 2px #0b0c10;
+	text-shadow: -1px -1px 2px #1f2833;	
+}
+
+/******************************************
+  Media Queries
+*******************************************/
+
+@media (min-width: 465px) {
+	
+	
+	
+	#header_content h1.title a {
+		width:50%;
+		padding:0;
+	}
+
+	
+	#log_out,
+	#log_in {
+		float:right;
+		width: 100px;
+		margin-bottom:1.5em;
+		margin-top:0;
+	}
+	
+	#menu li{
+		font-size:.8em;
+	}
+
+	.sidebar:nth-child(2) {
+	margin-top: 0;
+}
+	
+	.sidebar {
+		width: 40%;
+		margin: 0 5%; 
+		margin-top: 0;
+	}
+	
+	.noticeboard {
+		float:left;
+		
+	}
+	
+	.events {
+		float:right;
+	}
+}
+
+@media (min-width: 762px) {
+	
+	
+	h1.title {
+		float:left;
+		width:60%;
+	}
+
+	#log_out,
+	#log_in {
+		float:right;
+		width: 100px;
+		margin-top: 1em;
+	}
+	
+	aside {
+	height: calc(100% - 80px);
+	margin-top: 0;
+	}
+	
+	
+	.sidebar {
+		width: 95%;
+		margin-right: 3%; 
+		margin-left: 2%;
+		height: calc(45% - 1em);
+	}
+	
+	.noticeboard {
+		float:none;
+		margin-top: 0;
+	}
+	
+	.events {
+		float:none;
+	}
+	
+
+
+
+}
+
+/******************************************
+  Modal
+*******************************************/
+
+
+
+
+/* ---- Float clearfix ---- */
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+		
