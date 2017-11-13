@@ -1,4 +1,4 @@
-ZimSchola Hub – a smart solution to school management
+﻿ZimSchola Hub – a smart solution to school management
 
 Overview
 
@@ -7,3 +7,7 @@ It can be deployed on both a local or remote server and be accessible both withi
 
 To run copy the folder to the folder htdocs in the XAMP folder or www folder in the WAMP folder
 Then open index.php
+
+NB: This uses CSS Grid Layout so its best to use firefox for the best look.
+
+Currently its static as the database is not included here
